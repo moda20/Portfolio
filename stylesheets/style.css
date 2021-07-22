@@ -940,13 +940,14 @@ html, body {
     /*vertical line for experience in min width 768 */
     left: 50%;
     margin-left: -2px;
-    height: 69.1%;
+    height: 100%;
     opacity: 0.4;
     background: #06A763; }
 
   .timeline-block {
     /*timeline block in min width 768*/
-    margin: -5em 0; }
+    margin: -10% 0 -15%;
+  }
     .timeline-block .card {
       margin: 0; }
     .timeline-block .timeline-dot {
