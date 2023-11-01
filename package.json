@@ -1,0 +1,28 @@
+{
+  "name": "med_kadhem_mansour_portfolio",
+  "version": "1.0.0",
+  "description": "the personal portfolio of mohamed kadhem mansour",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moda20/Portfolio.git"
+  },
+  "keywords": [
+    "ethereum",
+    "developer",
+    "fullstack",
+    "javascript"
+  ],
+  "author": "med kadhem mansour",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/moda20/Portfolio/issues"
+  },
+  "homepage": "https://github.com/moda20/Portfolio#readme",
+  "devDependencies": {
+    "sass": "^1.69.5"
+  }
+}
