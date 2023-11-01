@@ -31,7 +31,7 @@
     top: 0;
     bottom: 23px;
     left: 50%;
-    height: 99.5%;
+    height: 100%;
     width: 4px;
     opacity: 0.3;
     background: $primary-color;
@@ -139,6 +139,14 @@
     }
     .timeline-info {
       /*more details*/
+      display: flex;
+      flex-direction: row;
+      gap: 16px;
+      align-items: center;
+      justify-content: left;
+      img {
+        max-width: 60px;
+      }
       h6 {
         /*subject or institution*/
         line-height: 12px;
@@ -147,6 +155,9 @@
           color: inherit;
         }
       }
+    }
+    .timeline-paragraph {
+
     }
   }
   @include phone_768 {
@@ -174,7 +185,7 @@
     /*vertical line for experience in min width 768 */
     left: 50%;
     margin-left: -2px;
-    height: 69.1%;
+    height: 100%;
     opacity: 0.4;
     background: $primary-color;
   }
