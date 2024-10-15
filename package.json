@@ -4,7 +4,8 @@
   "description": "the personal portfolio of mohamed kadhem mansour",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile_sass": "cd stylesheets && npx sass -w style.scss:style.css"
   },
   "repository": {
     "type": "git",

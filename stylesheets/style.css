@@ -941,6 +941,10 @@ html .btn, body .btn {
   /*hover effect*/
   background: #046c40;
 }
+#about #about-card .main-paragraph {
+  text-align: left;
+  line-height: 1.6em;
+}
 
 /*
 -------------------------------------------------------------------------------
@@ -1342,7 +1346,6 @@ html .btn, body .btn {
 }
 #portfolios #portfolios-card .tab-content .grid figure h2 {
   /*portfolio caption header*/
-  word-spacing: -0.15em;
   font-weight: 300;
   font-size: 18px;
   margin: 0;
